@@ -318,4 +318,6 @@ animation: animate linear 2.5s infinite ;
 </style>
 ```
 
+here is some nerd font glyphs that i slightly adjusted and applied a gradient color to in inkscape, note that with the paintcan image i wanted the animation to go in reverse motion so i added a `-` negative to the hue-rotate filter in the 100% section like this ``filter: hue-rotate(-360deg);}``
+
 <img src="examples/brush-a.svg" width="100"> &nbsp; <img src="examples/brush-b.svg" width="100"> &nbsp; <img src="examples/paintcan.svg" width="100">
