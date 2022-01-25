@@ -237,6 +237,26 @@ because of this we convert these texts to paths so we can have a unfied look, in
 3- in the edit menu click on `resize page to selection`, this changes the frame to the size of your writing
 
 4- in the path menu click on the `object to path`
-now you can save the file as `optimized svg` for ease of use i applied an orange color to all of the words
+now you can save the file as `optimized svg` for ease of use i applied an brown color to all of the words
 
 ![](examples/something.svg)
+
+## add gradient to our newly made text to path
+doing the same method as before let's apply a gradient to this shape, remember to remove any styling if there was any (in my case i had set some for the color to be able to show it here)
+
+```
+<style>
+path {
+fill: url(#grad);
+}
+</style>
+
+<linearGradient id="grad">
+<stop offset="0%" stop-color="cyan" />
+<stop offset="100%" stop-color="magenta" />
+</linearGradient>
+```
+
+![](examples/something2.svg)
+
+as you can see each word has this gradient applied to it individually, if you want a gradient to be applied the whole word you need to combine all these shapes together which i will show on the next section
