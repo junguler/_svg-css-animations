@@ -21,6 +21,7 @@ quick links:
   * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
   * [invert filter](https://github.com/junguler/_svg-css-animations#invert-filter-example)
   * [greyscale filter](https://github.com/junguler/_svg-css-animations#greyscale-filter-example)
+* [acknowledgement](https://github.com/junguler/_svg-css-animations#acknowledgement)
 
 <br>
 
