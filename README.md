@@ -322,3 +322,25 @@ animation: animate linear 2.5s infinite ;
 here is some nerd font glyphs that i slightly adjusted and applied a gradient color to in inkscape, note that with the paintcan image i wanted the animation to go in reverse motion so i added a `-` negative to the hue-rotate filter in the 100% section like this ``filter: hue-rotate(-360deg);``
 
 <img src="examples/brush-a.svg" width="100"> &nbsp; <img src="examples/brush-b.svg" width="100"> &nbsp; <img src="examples/paintcan.svg" width="100">
+
+<br>
+
+## blur filter examples
+applying blur effect is also easy
+```
+<style>
+@keyframes animate {
+25% {
+filter: blur(0px);}
+100% {
+filter: blur(1px);}
+}
+path {
+animation: animate ease-in-out 2.5s infinite alternate ;
+}
+</style>
+```
+
+<img src="examples/eyeglass.svg" width="100">
+
+note that i started the animation at 25% which means that the first 25% of this 2.5s does not apply any filters to this image, i also used ease-in-out which slows down the start and end of the animation, the alternate at the end makes sure to loop the animation correctly as it's not like the hue-rotate example and the end and start of this animation is not the same
