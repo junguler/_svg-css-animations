@@ -67,3 +67,17 @@ fill: magenta;
 ![](step2/B-1.svg)
 
 the color can also be hex `#FF00FF` or `rgb(255, 0, 255)` with the exact same result
+
+## applying transparency using the color
+using hex and rgba colors we can apply transparency (alpha) to these colors as well
+ ```
+<style>
+path {
+fill: rgba(255, 0, 255, 0.5);
+}
+</style>
+```
+
+![](step2/B-2.svg)
+
+above example applies 50% opacity to the magenta color, same thing can be achieved by `#FF00FF70`
