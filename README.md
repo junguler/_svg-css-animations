@@ -167,10 +167,11 @@ animation: test_anim linear 2.5s infinite alternate;
 what happened? so we tell css we want to apply an `animation` to this path tag, we apply the name of our animation `test_anim`, set the style of aniamation we want to use `linear` this can be `ease`, `ease-in-out` and some extra varients, specify the animation length set to `2.5s` seconds in this example and apply this animation `infinite` infinitly and `alternate` makes sure to go back and forth to not have a jarring finish to the animation
 
 here is how it comes together 
+
 <details>
   <summary>click me to read</summary>
-  
 <br>
+ 
 ```
 <svg width="83.166mm" height="79.839mm" version="1.1" viewBox="0 0 83.166 79.839" xmlns="http://www.w3.org/2000/svg">
 
