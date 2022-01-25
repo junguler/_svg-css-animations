@@ -241,6 +241,8 @@ now you can save the file as `optimized svg` for ease of use i applied an brown 
 
 ![](examples/something.svg)
 
+<br>
+
 ## add gradient to our newly made text to path
 doing the same method as before let's apply a gradient to this shape, remember to remove any styling if there was any (in my case i had set some for the color to be able to show it here)
 
@@ -260,3 +262,10 @@ fill: url(#grad);
 ![](examples/something2.svg)
 
 as you can see each word has this gradient applied to it individually, if you want a gradient to be applied the whole word you need to combine all these shapes together which i will show on the next section
+
+<br>
+
+## combine all shapes toghter
+in inkscape click on the words and in the `path` menu click on `combine` and save the file again and do the same thing as the step above
+
+![](examples/something3.svg)
