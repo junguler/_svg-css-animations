@@ -269,3 +269,14 @@ as you can see each word has this gradient applied to it individually, if you wa
 in inkscape click on the words and in the `path` menu click on `combine` and save the file again and do the same thing as the step above
 
 ![](examples/something3.svg)
+
+<br>
+
+## use nerd fonts glyphs
+nerd fonts are a collection of free and opensource fonts that have many glyphs patched to them, find the repo [here](https://github.com/ryanoasis/nerd-fonts) and check the website [here](https://www.nerdfonts.com/) and [download](https://www.nerdfonts.com/font-downloads) any one of the fonts you like and install it to your system, restart inkscape and go to the [cheat sheat](https://www.nerdfonts.com/cheat-sheet) section of the website and find a glyph you like.
+
+click on the icon and go to inkscape and using the T icon the the toolbar paste the glyph into the page, click on it and move to `0` at `X` and `Y` as before and from the `edit` menu `resize page to selection` just like before and save it
+
+![](examples/github.svg)
+
+the same method for applying gradients and animation can be applied to this glyph as well
