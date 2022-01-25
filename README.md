@@ -228,7 +228,7 @@ there are a bunch of filters we can apply in our animations, for a complete expl
 | `contrast()` | 0% | 200% | 100% | assign contrast value |
 | `drop-shadow()` | 0px | n/a | 0px | apply drop shadowing |
 | `grayscale()` | 0% | 100% | 0% | apply grayscale (black and white) |
-| `hue-rotate()` | 0deg | 360deg | 0deg | rotate hue (change colors) |
+| `hue-rotate()` | 0deg | 360deg | 0deg | rotate hue (change colors) can also be a negative value |
 | `invert()` | 0% | 100% | 0% | invert colors |
 | `opacity()` | 0% | 100% | 100% | change opacity(alpha) |
 | `saturate()` | 0% | 200% | 100% | saturate colors |
