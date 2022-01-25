@@ -81,3 +81,49 @@ fill: rgba(255, 0, 255, 0.5);
 ![](step2/B-2.svg)
 
 above example applies 50% opacity to the magenta color, same thing can be achieved by `#FF00FF70`
+
+## gradients in svg
+applying gradient to svg is done by using the gradient tags like `linearGradient` and `radialGradient` tags, here is a simple example for lineargradient for fill color, apply this at the bottom of you style tag and above the actual svg
+```
+<linearGradient id="grad">
+<stop offset="0%" stop-color="cyan" />
+<stop offset="100%" stop-color="magenta" />
+</linearGradient>
+```
+you are not limited in setting up these gradients at all and it does not need to start at 0% and end at 100% either, you can have as many colors as you want and at any point yout want, either with transparency (alpha) or not, here is another more involved example
+```
+<linearGradient id="grad">
+<stop offset="20%" stop-color="cyan" />
+<stop offset="50%" stop-color="rgba(255, 127, 0, 0.5" />
+<stop offset="70%" stop-color="#ff00ff22" />
+</linearGradient>
+```
+
+as you can see we need to assign an id to this gradient tag and i named mine `grad`, now change your style to include this id and apply the gradint
+ ```
+<style>
+path {
+fill: url(#grad);
+}
+</style>
+```
+so the whole file becomes like this 
+```
+<svg width="48.157mm" height="45.893mm" version="1.1" viewBox="0 0 48.157 45.893" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+path {
+fill: url(#grad);
+}
+</style>
+
+<linearGradient id="grad">
+<stop offset="0%" stop-color="cyan" />
+<stop offset="100%" stop-color="magenta" />
+</linearGradient>
+
+<path transform="matrix(.26458 0 0 .26458 9.3567 12.131)" d="m111.22 127.6-56.061-29.92-56.429 29.219 11.132-62.563-45.227-44.638 62.941-8.7459 28.477-56.807 27.768 57.157 62.827 9.5292-45.779 44.071z"/>
+
+</svg>
+```
+![](step3/C-1.svg)
