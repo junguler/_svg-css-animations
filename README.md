@@ -108,6 +108,11 @@ fill: url(#grad);
 </style>
 ```
 so the whole file becomes like this 
+<details>
+  <summary>click me to read</summary>
+  
+<br>
+
 ```
 <svg width="48.157mm" height="45.893mm" version="1.1" viewBox="0 0 48.157 45.893" xmlns="http://www.w3.org/2000/svg">
 
@@ -126,4 +131,6 @@ fill: url(#grad);
 
 </svg>
 ```
+</details>
+
 ![](step3/C-1.svg)
