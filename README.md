@@ -318,4 +318,4 @@ animation: animate linear 2.5s infinite ;
 </style>
 ```
 
-<img src="examples/brush-a.svg" width="100"> <img src="examples/brush-b.svg" width="100"> <img src="examples/paintcan.svg" width="100">
+<img src="examples/brush-a.svg" width="100"> &nbsp; <img src="examples/brush-b.svg" width="100"> &nbsp; <img src="examples/paintcan.svg" width="100">
