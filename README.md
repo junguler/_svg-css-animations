@@ -18,6 +18,7 @@ quick links:
 * [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
 * [hue-rotate filter examples](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
 * [blur filter example](https://github.com/junguler/_svg-css-animations#blur-filter-example)
+* [invert filter example](https://github.com/junguler/_svg-css-animations#invert-filter-example)
 
 <br>
 
@@ -359,7 +360,7 @@ filter: invert(0%);}
 filter: invert(100%);}
 }
 path {
-animation: animate linear 2.5s infinite alternate ;
+animation: animate ease-in-out 2.5s infinite alternate ;
 }
 </style>
 ```
