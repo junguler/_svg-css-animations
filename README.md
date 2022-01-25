@@ -14,7 +14,7 @@ everything is inside tags `<>` with the `svg` tag containing everything, here is
 <rect width="47.404" height="21.129" style="fill:#20a6ff;paint-order:markers fill stroke"/>
 </svg>
 ```
-![](step1/A-1.svg)
+![](examples/A-1.svg)
 
 the svg tag contains the width and height of our image, note that this is the value you decided in your svg editor and can be easily changed, the reason for these to exist is so we can have a default value.
 
@@ -26,7 +26,7 @@ note that this rect tag was created because i made a very simple rectangle image
 <path transform="matrix(.26458 0 0 .26458 9.3567 12.131)" d="m111.22 127.6-56.061-29.92-56.429 29.219 11.132-62.563-45.227-44.638 62.941-8.7459 28.477-56.807 27.768 57.157 62.827 9.5292-45.779 44.071z" style="fill:#20a6ff;paint-order:markers fill stroke"/>
 </svg>
 ```
-![](step1/A-2.svg)
+![](examples/A-2.svg)
 
 here inkscape has assigned the path tag to our more complex image and we can see that extra styling has also been applied
 
@@ -68,7 +68,7 @@ fill: magenta;
  
 </details>
 
-![](step2/B-1.svg)
+![](examples/B-1.svg)
 
 the color can also be hex `#FF00FF` or `rgb(255, 0, 255)` with the exact same result
 
@@ -84,7 +84,7 @@ fill: rgba(255, 0, 255, 0.5);
 </style>
 ```
 
-![](step2/B-2.svg)
+![](examples/B-2.svg)
 
 above example applies 50% opacity to the magenta color, same thing can be achieved by `#FF00FF70`
 
@@ -141,7 +141,7 @@ fill: url(#grad);
 ```
 </details>
 
-![](step3/C-1.svg)
+![](examples/C-1.svg)
 
 <br>
 
@@ -199,7 +199,7 @@ animation: test_anim linear 2.5s infinite alternate;
 ```
 </details>
 
-![](step3/C-2.svg)
+![](examples/C-2.svg)
 
 <br>
 
