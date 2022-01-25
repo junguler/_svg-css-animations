@@ -11,7 +11,7 @@ filter: invert(100%);}
 }
 
 path {
-animation: animate linear 2.5s infinite alternate ;
+animation: animate ease-in-out 2.5s infinite alternate ;
 }
 
 </style>
