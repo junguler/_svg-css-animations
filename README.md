@@ -345,3 +345,21 @@ animation: animate ease-in-out 2.5s infinite alternate ;
 <img src="examples/eyeglass.svg" height="100">
 
 note that i started the animation at 25% which means that the first 25% of this 2.5s does not apply any filters to this image, i also used ease-in-out which slows down the start and end of the animation, the alternate at the end makes sure to loop the animation correctly as it's not like the hue-rotate example and the end and start of this animation is not the same
+
+<br>
+## invert filter example
+```
+<style>
+@keyframes animate {
+0% {
+filter: invert(0%);}
+100% {
+filter: invert(100%);}
+}
+path {
+animation: animate linear 2.5s infinite alternate ;
+}
+</style>
+```
+
+<img src="examples/yan-yang.svg" width="100">
