@@ -3,6 +3,8 @@ svgs are the most popular extension for vector images, unlike rastor images (jpg
 
 this makes them easier to scale without the quality loss and it usually makes them take smaller file size if you are working with simple shapes
 
+<br>
+
 ## the basic layout of svg images
 svgs are very easy to modify since they are made of calculations, if we open a svg file with a text editor you can see that it's actually really easy to understand
 
@@ -27,6 +29,8 @@ note that this rect tag was created because i made a very simple rectangle image
 ![](step1/A-2.svg)
 
 here inkscape has assigned the path tag to our more complex image and we can see that extra styling has also been applied
+
+<br>
 
 ## apply your own styling css to svg
 now that we know the basic of how svgs are set up with can apply our own stylings to these files so take the above example with the star and lets remove the style section from it, for ease of showing i will not include the svg tag from further examples.
@@ -68,6 +72,8 @@ fill: magenta;
 
 the color can also be hex `#FF00FF` or `rgb(255, 0, 255)` with the exact same result
 
+<br>
+
 ## applying transparency using the color
 using hex and rgba colors we can apply transparency (alpha) to these colors as well
  ```
@@ -81,6 +87,8 @@ fill: rgba(255, 0, 255, 0.5);
 ![](step2/B-2.svg)
 
 above example applies 50% opacity to the magenta color, same thing can be achieved by `#FF00FF70`
+
+<br>
 
 ## gradients in svg
 applying gradient to svg is done by using the gradient tags like `linearGradient` and `radialGradient` tags, here is a simple example for lineargradient for fill color, apply this at the bottom of you style tag and above the actual svg
@@ -134,3 +142,62 @@ fill: url(#grad);
 </details>
 
 ![](step3/C-1.svg)
+
+<br>
+
+## apply animations to your svg
+applying animations is easy using css, all you need to do is define a keyframe, assign a name to it and define start and end points to it, lets show a simple example
+```
+@keyframes test_anim {
+0% {
+filter: invert(0%);}
+100% {
+filter: invert(100%);}
+}
+```
+you can also use `from` and `to` instead of `0%` and `100%` if you only need 2 points for your animation but using the percentegas is easier and gives you more control, because these are stylings we apply to these svg files they should also be inside the style tags as your other css
+
+so we made our first animation but why did it not do anything? because you haven't applied it to your path tag yet so lets do that now
+```
+path {
+fill: url(#grad);
+animation: test_anim linear 2.5s infinite alternate;
+}
+```
+what happened? so we tell css we want to apply an `animation` to this path tag, we apply the name of our animation `test_anim`, set the style of aniamation we want to use `linear` this can be `ease`, `ease-in-out` and some extra varients, specify the animation length set to `2.5s` seconds in this example and apply this animation `infinite` infinitly and `alternate` makes sure to go back and forth to not have a jarring finish to the animation
+
+here is how it comes together 
+<details>
+  <summary>click me to read</summary>
+  
+<br>
+```
+<svg width="83.166mm" height="79.839mm" version="1.1" viewBox="0 0 83.166 79.839" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+@keyframes test_anim {
+0% {
+filter: invert(0%);}
+100% {
+filter: invert(100%);}
+}
+
+path {
+fill: url(#grad);
+animation: test_anim linear 2.5s infinite alternate;
+}
+</style>
+
+<linearGradient id="grad">
+<stop offset="0%" stop-color="cyan" />
+<stop offset="100%" stop-color="magenta" />
+</linearGradient>
+
+<path transform="matrix(.26458 0 0 .26458 9.3567 12.131)" d="m111.22 127.6-56.061-29.92-56.429 29.219 11.132-62.563-45.227-44.638 62.941-8.7459 28.477-56.807 27.768 57.157 62.827 9.5292-45.779 44.071z"/>
+
+</svg>
+```
+</details>
+
+![](step3/C-2.svg)
+
