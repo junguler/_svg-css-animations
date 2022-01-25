@@ -302,5 +302,20 @@ the same method for applying gradients and animation can be applied to this glyp
 
 <br>
 
-### examples showcasing svg animations coming soon
-now that we got the explanations out of the way i'll be showing you some examples as to how we can do some cool things with svg and css coming pretty soon, in the meantime i hope you enjoy the tutorial.
+## hue-rotate filter examples
+the hue-rotate filter changes the position of colors, you can think of it as a rainbow that changes the position of it's colors, these colors move in 360 degrees circle where 0 and 360 gives you the same color, so a 180 degree hue-rotation changes a cyan color to red and so on, knowing this we can make a smooth motion that constantly moves our colors along
+```
+<style>
+@keyframes animate {
+0% {
+filter: hue-rotate(0deg);}
+100% {
+filter: hue-rotate(360deg);}
+}
+path {
+animation: animate linear 2.5s infinite ;
+}
+</style>
+```
+
+<img src="examples/brush-a.svg" width="100"> <img src="examples/brush-b.svg" width="100"> <img src="examples/paintcan.svg" width="100">
