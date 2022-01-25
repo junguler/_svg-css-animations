@@ -42,6 +42,12 @@ fill: magenta;
 </style>
 ```
 so the whole thing become like this
+
+<details>
+  <summary>click me to read</summary>
+  
+<br>
+
 ```
 <svg width="48.157mm" height="45.893mm" version="1.1" viewBox="0 0 48.157 45.893" xmlns="http://www.w3.org/2000/svg">
 
@@ -55,6 +61,8 @@ fill: magenta;
 
 </svg>
 ```
+ 
+</details>
 
 ![](step2/B-1.svg)
 
