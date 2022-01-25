@@ -5,6 +5,20 @@ this makes them easier to scale without the quality loss and it usually makes th
 
 <br>
 
+quick links:
+* [the basic layout](https://github.com/junguler/_svg-css-animations#the-basic-layout-of-svg-images)
+* [apply you own stylings](https://github.com/junguler/_svg-css-animations#apply-your-own-styling-css-to-svg)
+* [apply transparency using colors](https://github.com/junguler/_svg-css-animations#applying-transparency-using-the-color)
+* [gradients in svg](https://github.com/junguler/_svg-css-animations#gradients-in-svg)
+* [apply animations to svg](https://github.com/junguler/_svg-css-animations#apply-animations-to-your-svg)
+* [basic info about filters](https://github.com/junguler/_svg-css-animations#different-filters-in-css)
+* [difference between text and path](https://github.com/junguler/_svg-css-animations#differences-between-path-and-text-in-svg)
+* [add gradient to newly made paths](https://github.com/junguler/_svg-css-animations#add-gradient-to-our-newly-made-text-to-path)
+* [combine different shapes in svg](https://github.com/junguler/_svg-css-animations#combine-all-shapes-toghter)
+* [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
+
+<br>
+
 ## the basic layout of svg images
 svgs are very easy to modify since they are made of calculations, if we open a svg file with a text editor you can see that it's actually really easy to understand
 
