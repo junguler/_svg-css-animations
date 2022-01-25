@@ -366,3 +366,25 @@ animation: animate ease-in-out 2.5s infinite alternate ;
 ```
 
 <img src="examples/yan-yang.svg" width="100">
+
+<br>
+
+## greyscale filter example
+
+```
+<style>
+@keyframes animate {
+0, 10% {
+filter: grayscale(0%);}
+90%, 100% {
+filter: grayscale(100%);}
+}
+path {
+animation: animate ease-in-out 2.5s infinite alternate ;
+}
+</style>
+```
+
+notice how i applied the filters to 0% and 10% and 90% and 100%, this is not usually needed but if you find your animation has a glitch in (like it was with mine) you can avoid it completely by adding both sets of numbers
+
+<img src="examples/tv.svg" width="100">
