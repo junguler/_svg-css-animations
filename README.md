@@ -201,3 +201,25 @@ animation: test_anim linear 2.5s infinite alternate;
 
 ![](step3/C-2.svg)
 
+<br>
+
+## different filters in css
+there are a bunch of filters we can apply in our animations, for a complete explanation on them go this [page](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) but here is simple table to gives you the summery
+
+| filter | minimum | maximum | default | info |
+|---|---|---|---|---|
+| `blur()` | 0px | n/a | 0px | apply blur effect |
+| `brightness()` | 0.0 | 2.0 | 1.0 | assign brightness value |
+| `contrast()` | 0% | 200% | 100% | assign contrast value |
+| `drop-shadow()` | 0px | n/a | 0px | apply drop shadowing |
+| `grayscale()` | 0% | 100% | 0% | apply grayscale (black and white) |
+| `hue-rotate()` | 0deg | 360deg | 0deg | rotate hue (change colors) |
+| `invert()` | 0% | 100% | 0% | invert colors |
+| `opacity()` | 0% | 100% | 100% | change opacity(alpha) |
+| `saturate()` | 0% | 200% | 100% | saturate colors |
+| `sepia()` | 0% | 100% | 0% | apply sepia (old timey color) |
+
+chaining filters is easy too, just do this:
+```
+filter: invert(75%) hue-rotate(180deg);
+```
