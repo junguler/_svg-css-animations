@@ -239,7 +239,7 @@ chaining filters is easy too, just do this:
 filter: invert(75%) hue-rotate(180deg);
 ```
 
-## differences between path and text in css
+## differences between path and text in svg
 when you type a text in a svg editor it's saved as text file by defualt, this makes this svg smaller than if we changed it to path but the problem is everyone needs to have the same font installed on their computer to see how you intended that text file to be shown.
 
 because of this we convert these texts to paths so we can have a unfied look, in inkscape this is done by
@@ -299,6 +299,8 @@ the same method for applying gradients and animation can be applied to this glyp
 ```
 
 <img src="examples/github.svg" width="100">
+
+<br>
 
 ### examples showcasing svg animations coming soon
 now that we got the explanations out of the way i'll be showing you some examples as to how we can do some cool things with svg and css coming pretty soon, in the meantime i hope you enjoy the tutorial.
