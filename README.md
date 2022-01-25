@@ -224,3 +224,16 @@ chaining filters is easy too, just do this:
 ```
 filter: invert(75%) hue-rotate(180deg);
 ```
+
+## differences between path and text in css
+when you type a text in a svg editor it's saved as text file by defualt, this makes this svg smaller than if we changed it to path but the problem is everyone needs to have the same font installed on their computer to see how you intended that text file to be shown.
+
+because of this we convert these texts to paths so we can have a unfied look, in inkscape this is done by
+
+** 1- click on the T icon in the toolbox and write something
+** 2- click on the select icon and at the top bar put `0` in the `X` and `Y` sections, this forces the text at the top most left part of the frame
+** 3- in the edit menu click on `resize page to selection`, this changes the frame to the size of your writing
+** 4- in the path menu click on the `object to path`
+now you can save the file as `optimized svg` for ease of use i applied an orange color to all of the words
+
+![](examples/something.svg)
