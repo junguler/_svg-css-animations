@@ -348,6 +348,7 @@ note that i started the animation at 25% which means that the first 25% of this 
 
 <br>
 ## invert filter example
+
 ```
 <style>
 @keyframes animate {
