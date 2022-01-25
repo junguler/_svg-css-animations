@@ -285,3 +285,6 @@ the same method for applying gradients and animation can be applied to this glyp
 ```
 
 <img src="examples/github.svg" width="100">
+
+### examples showcasing svg animations coming soon
+now that we got the explanations out of the way i'll be showing you some examples as to how we can do some cool things with svg and css coming pretty soon, in the meantime i hope you enjoy the tutorial.
