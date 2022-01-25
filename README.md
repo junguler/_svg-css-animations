@@ -17,6 +17,7 @@ quick links:
 * [combine different shapes in svg](https://github.com/junguler/_svg-css-animations#combine-all-shapes-together)
 * [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
 * [hue-rotate filter examples](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
+* [blur filter example](https://github.com/junguler/_svg-css-animations#blur-filter-example)
 
 <br>
 
@@ -325,7 +326,7 @@ here is some nerd font glyphs that i slightly adjusted and applied a gradient co
 
 <br>
 
-## blur filter examples
+## blur filter example
 applying blur effect is also easy
 ```
 <style>
