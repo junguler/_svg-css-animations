@@ -279,4 +279,9 @@ click on the icon and go to inkscape and using the T icon the the toolbar paste 
 
 ![](examples/github.svg)
 
-the same method for applying gradients and animation can be applied to this glyph as well
+the same method for applying gradients and animation can be applied to this glyph as well, like i said these svg files can be resize to any size you want and let's showcase that using a bit of html inside this markdown file
+```
+<img src="examples/github.svg" width="100">
+```
+
+<img src="examples/github.svg" width="100">
