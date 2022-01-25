@@ -16,9 +16,11 @@ quick links:
 * [add gradient to newly made paths](https://github.com/junguler/_svg-css-animations#add-gradient-to-our-newly-made-text-to-path)
 * [combine different shapes in svg](https://github.com/junguler/_svg-css-animations#combine-all-shapes-together)
 * [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
-* [hue-rotate filter examples](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
-* [blur filter example](https://github.com/junguler/_svg-css-animations#blur-filter-example)
-* [invert filter example](https://github.com/junguler/_svg-css-animations#invert-filter-example)
+* filter examples
+  * [hue-rotate](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
+  * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
+  * [invert filter](https://github.com/junguler/_svg-css-animations#invert-filter-example)
+  * [greyscale filter](https://github.com/junguler/_svg-css-animations#greyscale-filter-example)
 
 <br>
 
