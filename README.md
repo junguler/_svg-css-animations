@@ -1,5 +1,5 @@
 ## svg animations
-svgs are the most popular extension for vector images, unlike rastor images (jpg, png ...) vector images dont contain pixels but calculations of the shapes that make the final image
+svgs are the most popular extension for vector images, unlike raster images (jpg, png ...) vector images don't contain pixels but calculations of the shapes that make the final image
 
 this makes them easier to scale without the quality loss and it usually makes them take smaller file size if you are working with simple shapes
 
@@ -14,7 +14,7 @@ quick links:
 * [basic info about filters](https://github.com/junguler/_svg-css-animations#different-filters-in-css)
 * [difference between text and path](https://github.com/junguler/_svg-css-animations#differences-between-path-and-text-in-svg)
 * [add gradient to newly made paths](https://github.com/junguler/_svg-css-animations#add-gradient-to-our-newly-made-text-to-path)
-* [combine different shapes in svg](https://github.com/junguler/_svg-css-animations#combine-all-shapes-toghter)
+* [combine different shapes in svg](https://github.com/junguler/_svg-css-animations#combine-all-shapes-together)
 * [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
 
 <br>
@@ -32,7 +32,7 @@ everything is inside tags `<>` with the `svg` tag containing everything, here is
 
 the svg tag contains the width and height of our image, note that this is the value you decided in your svg editor and can be easily changed, the reason for these to exist is so we can have a default value.
 
-the rect tag here contains x coordinantes, width and height and some styling we applied in our svg editor (in my case inkscape)
+the rect tag here contains x coordinates, width and height and some styling we applied in our svg editor (in my case inkscape)
 
 note that this rect tag was created because i made a very simple rectangle image, if we make a more complex shape this tag changes depending the complexity, here is another example:
 ```
@@ -112,7 +112,7 @@ applying gradient to svg is done by using the gradient tags like `linearGradient
 <stop offset="100%" stop-color="magenta" />
 </linearGradient>
 ```
-you are not limited in setting up these gradients at all and it does not need to start at 0% and end at 100% either, you can have as many colors as you want and at any point yout want, either with transparency (alpha) or not, here is another more involved example
+you are not limited in setting up these gradients at all and it does not need to start at 0% and end at 100% either, you can have as many colors as you want and at any point you want, either with transparency (alpha) or not, here is another more involved example
 ```
 <linearGradient id="grad">
 <stop offset="20%" stop-color="cyan" />
@@ -121,7 +121,7 @@ you are not limited in setting up these gradients at all and it does not need to
 </linearGradient>
 ```
 
-as you can see we need to assign an id to this gradient tag and i named mine `grad`, now change your style to include this id and apply the gradint
+as you can see we need to assign an id to this gradient tag and i named mine `grad`, now change your style to include this id and apply the gradient
  ```
 <style>
 path {
@@ -169,7 +169,7 @@ filter: invert(0%);}
 filter: invert(100%);}
 }
 ```
-you can also use `from` and `to` instead of `0%` and `100%` if you only need 2 points for your animation but using the percentegas is easier and gives you more control, because these are stylings we apply to these svg files they should also be inside the style tags as your other css
+you can also use `from` and `to` instead of `0%` and `100%` if you only need 2 points for your animation but using the percentages is easier and gives you more control, because these are stylings we apply to these svg files they should also be inside the style tags as your other css
 
 so we made our first animation but why did it not do anything? because you haven't applied it to your path tag yet so lets do that now
 ```
@@ -178,7 +178,7 @@ fill: url(#grad);
 animation: test_anim linear 2.5s infinite alternate;
 }
 ```
-what happened? so we tell css we want to apply an `animation` to this path tag, we apply the name of our animation `test_anim`, set the style of aniamation we want to use `linear` this can be `ease`, `ease-in-out` and some extra varients, specify the animation length set to `2.5s` seconds in this example and apply this animation `infinite` infinitly and `alternate` makes sure to go back and forth to not have a jarring finish to the animation
+what happened? so we tell css we want to apply an `animation` to this path tag, we apply the name of our animation `test_anim`, set the style of animations we want to use `linear` this can be `ease`, `ease-in-out` and some extra variants, specify the animation length set to `2.5s` seconds in this example and apply this animation `infinite` infinitely and `alternate` makes sure to go back and forth to not have a jarring finish to the animation
 
 here is how it comes together 
 
@@ -240,9 +240,9 @@ filter: invert(75%) hue-rotate(180deg);
 ```
 
 ## differences between path and text in svg
-when you type a text in a svg editor it's saved as text file by defualt, this makes this svg smaller than if we changed it to path but the problem is everyone needs to have the same font installed on their computer to see how you intended that text file to be shown.
+when you type a text in a svg editor it's saved as text file by default, this makes this svg smaller than if we changed it to path but the problem is everyone needs to have the same font installed on their computer to see how you intended that text file to be shown.
 
-because of this we convert these texts to paths so we can have a unfied look, in inkscape this is done by
+because of this we convert these texts to paths so we can have a unfired look, in inkscape this is done by
 
 1- click on the T icon in the toolbox and write something
 
@@ -279,7 +279,7 @@ as you can see each word has this gradient applied to it individually, if you wa
 
 <br>
 
-## combine all shapes toghter
+## combine all shapes together
 in inkscape click on the words and in the `path` menu click on `combine` and save the file again and do the same thing as the step above
 
 ![](examples/something3.svg)
@@ -287,7 +287,7 @@ in inkscape click on the words and in the `path` menu click on `combine` and sav
 <br>
 
 ## use nerd fonts glyphs
-nerd fonts are a collection of free and opensource fonts that have many glyphs patched to them, find the repo [here](https://github.com/ryanoasis/nerd-fonts) and check the website [here](https://www.nerdfonts.com/) and [download](https://www.nerdfonts.com/font-downloads) any one of the fonts you like and install it to your system, restart inkscape and go to the [cheat sheat](https://www.nerdfonts.com/cheat-sheet) section of the website and find a glyph you like.
+nerd fonts are a collection of free and opensource fonts that have many glyphs patched to them, find the repo [here](https://github.com/ryanoasis/nerd-fonts) and check the website [here](https://www.nerdfonts.com/) and [download](https://www.nerdfonts.com/font-downloads) any one of the fonts you like and install it to your system, restart inkscape and go to the [cheat sheet](https://www.nerdfonts.com/cheat-sheet) section of the website and find a glyph you like.
 
 click on the icon and go to inkscape and using the T icon the the toolbar paste the glyph into the page, click on it and move to `0` at `X` and `Y` as before and from the `edit` menu `resize page to selection` just like before and save it
 
