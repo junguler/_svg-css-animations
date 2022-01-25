@@ -370,7 +370,7 @@ animation: animate ease-in-out 2.5s infinite alternate ;
 </style>
 ```
 
-<img src="examples/yan-yang.svg" width="100">
+<img src="examples/yin-yang.svg" width="100">
 
 <br>
 
