@@ -230,10 +230,13 @@ when you type a text in a svg editor it's saved as text file by defualt, this ma
 
 because of this we convert these texts to paths so we can have a unfied look, in inkscape this is done by
 
-** 1- click on the T icon in the toolbox and write something
-** 2- click on the select icon and at the top bar put `0` in the `X` and `Y` sections, this forces the text at the top most left part of the frame
-** 3- in the edit menu click on `resize page to selection`, this changes the frame to the size of your writing
-** 4- in the path menu click on the `object to path`
+1- click on the T icon in the toolbox and write something
+
+2- click on the select icon and at the top bar put `0` in the `X` and `Y` sections, this forces the text at the top most left part of the frame
+
+3- in the edit menu click on `resize page to selection`, this changes the frame to the size of your writing
+
+4- in the path menu click on the `object to path`
 now you can save the file as `optimized svg` for ease of use i applied an orange color to all of the words
 
 ![](examples/something.svg)
