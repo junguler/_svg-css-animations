@@ -1,7 +1,5 @@
 ## svg animations
 
-![](examples/star2.svg)
-![](examples/star3.svg)
 ![](examples/star4.svg)
 ![](examples/star5.svg)
 
