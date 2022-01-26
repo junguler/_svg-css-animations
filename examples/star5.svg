@@ -1,0 +1,22 @@
+<svg width="30mm" height="30mm" version="1.1" viewBox="0 0 26.039 27.287" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient1986" x1="72.579" x2="196.17" y1="453.46" y2="373.2" gradientTransform="matrix(.76878 -.03387 .032321 .80563 -49.488 -250.24)" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#f0f" offset="0"/>
+<stop style="stop-color:#0ff" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(.29168 .026994)">
+<style>
+@keyframes animate {
+0% {
+filter: hue-rotate(360deg);}
+100% {
+filter: hue-rotate(0deg);}
+}
+path {
+animation: animate linear 2.5s infinite;
+}
+</style>
+<path transform="matrix(.24066 0 0 .24066 -.91583 -.026994)" d="m57.119 0-17.887 37.01-39.232 5.541 28.061 29.262-7.0957 40.814 35.229-18.924 34.848 19.684-6.2871-40.959 28.633-28.648-39.115-6.3906zm-0.07227 20.678 11.375 24.936 26.066 4.3281-19.137 19.031 4.125 27.295-23.199-13.174-23.518 12.541 4.7969-27.174-18.658-19.543 26.164-3.6191z" style="fill:url(#linearGradient1986);paint-order:markers fill stroke"/>
+</g>
+</svg>

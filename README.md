@@ -1,4 +1,10 @@
 ## svg animations
+
+![](examples/star2.svg)
+![](examples/star3.svg)
+![](examples/star4.svg)
+![](examples/star5.svg)
+
 svgs are the most popular extension for vector images, unlike raster images (jpg, png ...) vector images don't contain pixels but calculations of the shapes that make the final image
 
 this makes them easier to scale without the quality loss and it usually makes them take smaller file size if you are working with simple shapes
