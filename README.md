@@ -252,7 +252,7 @@ filter: invert(75%) hue-rotate(180deg);
 ## differences between path and text in svg
 when you type a text in a svg editor it's saved as text file by default, this makes this svg smaller than if we changed it to path but the problem is everyone needs to have the same font installed on their computer to see how you intended that text file to be shown.
 
-because of this we convert these texts to paths so we can have a unfired look, in inkscape this is done by
+because of this we convert these texts to paths so we can have a unified look, in inkscape this is done by
 
 1- click on the T icon in the toolbox and write something
 
