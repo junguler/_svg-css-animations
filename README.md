@@ -20,12 +20,12 @@ quick links:
 * [add gradient to newly made paths](https://github.com/junguler/_svg-css-animations#add-gradient-to-our-newly-made-text-to-path)
 * [combine different shapes in svg](https://github.com/junguler/_svg-css-animations#combine-all-shapes-together)
 * [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
+* [handling motion in animation](https://github.com/junguler/_svg-css-animations#handling-motion-in-an-animation)
 * filter examples
   * [hue-rotate](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
   * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
   * [invert filter](https://github.com/junguler/_svg-css-animations#invert-filter-example)
   * [greyscale filter](https://github.com/junguler/_svg-css-animations#greyscale-filter-example)
-* [handling motion in animation](https://github.com/junguler/_svg-css-animations#handling-motion-in-an-animation)
 * [acknowledgement](https://github.com/junguler/_svg-css-animations#acknowledgement)
 
 <br>
@@ -315,6 +315,15 @@ the same method for applying gradients and animation can be applied to this glyp
 
 <br>
 
+## handling motion in an animation
+depending on the number of seconds you want to run an animation it might look very different, we can also use other methods to make an animation look slower or faster than it already is using `linear`, `ease`, `ease-in-out` and some others, the easiest way to give you an idea is to show you
+
+| linear | ease | ease-in-out |
+|--|--|--|
+| ![](examples/triangle-linear.svg) | ![](examples/triangle-ease.svg) | ![](examples/triangle-ease-in-out.svg) |
+
+<br>
+
 ## hue-rotate filter examples
 the hue-rotate filter changes the position of colors, you can think of it as a rainbow that changes the position of it's colors, these colors move in 360 degrees circle where 0 and 360 gives you the same color, so a 180 degree hue-rotation changes a cyan color to red and so on, knowing this we can make a smooth motion that constantly moves our colors along
 ```
@@ -398,15 +407,6 @@ animation: animate ease-in-out 2.5s infinite alternate ;
 notice how i applied the filters to 0% and 10% and 90% and 100%, this is not usually needed but if you find your animation has a glitch in (like it was with mine) you can avoid it completely by adding both sets of numbers
 
 <img src="examples/tv.svg" width="100">
-
-<br>
-
-## handling motion in an animation
-depending on the number of seconds you want to run an animation it might look very different, we can also use other methods to make an animation look slower or faster than it already looks using `linear`, `ease`, `ease-in-out` and some others, the easiest to give you an idea is to show you
-
-| linear | ease | ease-in-out |
-|--|--|--|
-| ![](examples/triangle-linear.svg) | ![](examples/triangle-ease.svg) | ![](examples/triangle-ease-in-out.svg) |
 
 <br>
 
