@@ -400,5 +400,14 @@ notice how i applied the filters to 0% and 10% and 90% and 100%, this is not usu
 
 <br>
 
+## handling motion in an animation
+depending on the number of seconds you want to run an animation it might look very different, we can also use other methods to make an animation look slower or faster than it already looks using `linear`, `ease`, `ease-in-out` and some others, the easiest to give you an idea is to show you
+
+| linear | ease | ease-in-out |
+|--|--|--|--|
+| ![](examples/triangle-linear.svg) | ![](examples/triangle-ease.svg) | ![](examples/triangle-ease-in-out.svg) |
+
+<br>
+
 ## acknowledgement
 this repo and my profile banner was inspired by cool tricks from this [page](https://github.com/sindresorhus/css-in-readme-like-wat), please go give his repo a star to thank him for his great work

@@ -1,0 +1,32 @@
+<svg width="40.5mm" height="45mm" version="1.1" viewBox="0 0 40.5 45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient8271" x1="57.528" x2="333.37" y1="382.63" y2="382.63" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#ff0" offset="0"/>
+<stop style="stop-color:#fffff00" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient8347" x1="57.528" x2="333.37" y1="382.63" y2="382.63" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#ff0" offset="0"/>
+<stop style="stop-color:#fffff00" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient8457" x1="57.528" x2="333.37" y1="382.63" y2="382.63" gradientUnits="userSpaceOnUse">
+<stop style="stop-color:#ff0" offset="0"/>
+<stop style="stop-color:#fffff00" offset="1"/>
+</linearGradient>
+</defs>
+
+<style>
+@keyframes animate {
+0% {
+filter: hue-rotate(360deg);}
+100% {
+filter: hue-rotate(0deg);}
+}
+path {
+animation: animate linear 2.5s infinite;
+}
+</style>
+
+<path transform="matrix(.14682 0 0 .14128 -8.4465 -31.559)" d="m57.528 541.89-1e-6 -318.51 275.84 159.26z" style="fill:url(#linearGradient8457);paint-order:markers fill stroke;stroke-linejoin:round;stroke-width:1.4511"/>
+<path transform="matrix(.097883 0 0 .094188 -5.631 -6.0392)" d="m57.528 541.89-1e-6 -318.51 275.84 159.26z" style="fill:url(#linearGradient8347);mix-blend-mode:normal;paint-order:markers fill stroke;stroke-linejoin:round;stroke-width:2.1767"/>
+<path transform="matrix(.048942 0 0 .047094 -2.8155 19.48)" d="m57.528 541.89-1e-6 -318.51 275.84 159.26z" style="fill:url(#linearGradient8271);mix-blend-mode:normal;paint-order:markers fill stroke;stroke-linejoin:round;stroke-width:4.3534"/>
+</svg>
