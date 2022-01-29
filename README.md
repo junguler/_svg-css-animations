@@ -21,6 +21,7 @@ quick links:
 * [combine different shapes in svg](https://github.com/junguler/_svg-css-animations#combine-all-shapes-together)
 * [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
 * [handling motion in animation](https://github.com/junguler/_svg-css-animations#handling-motion-in-an-animation)
+* [specify gradient angle](https://github.com/junguler/_svg-css-animations#gradient-angle)
 * filter examples
   * [hue-rotate](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
   * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
@@ -321,6 +322,19 @@ depending on the number of seconds you want to run an animation it might look ve
 | linear | ease | ease-in-out |
 |--|--|--|
 | ![](examples/triangle-linear.svg) | ![](examples/triangle-ease.svg) | ![](examples/triangle-ease-in-out.svg) |
+
+<br>
+
+## gradient angle
+so far we've only used the angle `0` or used a gui svg editor (inkscape in my case) to set a custom gradient angle for our images but we can also specify it inside the starting gradient tag
+```
+<linearGradient id="grad" gradientTransform="rotate (45)">
+```
+everything else can be the same as before
+
+| 0 degree | 45 degrees | 90 degrees |
+|---|---|---|
+| ![](examples/circle-0deg.svg) | ![](examples/circle-45deg.svg) | ![](examples/circle-90deg.svg) |
 
 <br>
 

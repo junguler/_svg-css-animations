@@ -1,0 +1,29 @@
+<svg width="40mm" height="40mm" version="1.1" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(-33.564 -89.901)">
+
+<style>
+
+@keyframes animate {
+0% {
+filter: hue-rotate(360deg);
+}
+100% {
+filter: hue-rotate(0deg);}
+}
+
+circle {
+fill: url(#grad);
+animation: animate linear 1.5s infinite ;
+}
+
+</style>
+
+<linearGradient id="grad" gradientTransform="rotate (45)">
+<stop offset="0%" stop-color="cyan" />
+<stop offset="50%" stop-color="magenta" />
+<stop offset="100%" stop-color="cyan" />
+</linearGradient>
+
+<circle cx="53.564" cy="109.9" r="20" fill-rule="evenodd"/>
+</g>
+</svg>
