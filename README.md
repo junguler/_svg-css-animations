@@ -380,7 +380,7 @@ here is another example but with a different gradient this time, copy paste ever
 </linearGradient>
 ```
 
-note: because of how web browsers work you are not able to see the effect in this page, just click on any of the 2 images and it will open in a new page as raw svg and hover your mouse over them
+note: because of how github renders it's pages and applies it's own css to everything you are not able to see the effect in this page, just click on any of the 2 images and it will open in a new page as raw svg and hover your mouse over them
 
 | Hover over to speed up | Hover over to change colors |
 |--|--|
