@@ -340,7 +340,7 @@ everything else can be the same as before
 <br>
 
 ## real world examples
-i'm going to add some examples i've done using the nerd font glyphs here so you can get a feel for what's possible, if you want to see the code just click on the picture and hit the `<>` `display source blob` button at the top right
+i'm going to add some examples i've done using the nerd font glyphs here over time so you can get a feel for what's possible, if you want to see the code just click on the picture and hit the `<>` `display source blob` button at the top right
 
 | Xbox | Playstation |
 |---|---|
