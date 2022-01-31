@@ -16,8 +16,8 @@ animation: animate linear 5s infinite ;
 </style>
 
 <linearGradient id="grad" gradientTransform="rotate (45)">
-<stop offset="0%" stop-color="#0f0" />
-<stop offset="100%" stop-color="#0ff" />
+<stop offset="0%" stop-color="#ff0" />
+<stop offset="100%" stop-color="#f0f" />
 </linearGradient>
 
 <path d="m3.9437 1.5991e-4q-1.6901 0-2.8169 1.1268-1.1268 1.1268-1.1268 2.8169v20.094h3.9437v-20.094h20.094v-3.9437zm8.0751 7.9812q-1.784 0-2.9108 1.1268-1.1268 1.1268-1.1268 2.9108v20h4.0376v-20h20v-4.0376zm7.9812 7.9812q-1.6901 0.0939-2.8169 1.2207-1.1268 1.1268-1.2207 2.8169v16.056q0.0939 1.6901 1.2207 2.8169 1.1268 1.1268 2.8169 1.1268h16.056q1.6901 0 2.8169-1.1268t1.1268-2.8169v-16.056q0-1.6901-1.1268-2.8169t-2.8169-1.2207z"/>

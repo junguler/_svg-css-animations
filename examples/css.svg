@@ -16,8 +16,8 @@ animation: animate linear 5s infinite ;
 </style>
 
 <linearGradient id="grad" gradientTransform="rotate (90)">
-<stop offset="0%" stop-color="#f0f" />
-<stop offset="100%" stop-color="#0f0" />
+<stop offset="0%" stop-color="#0ff" />
+<stop offset="100%" stop-color="#ff0" />
 </linearGradient>
 
 
