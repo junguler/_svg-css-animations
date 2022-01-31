@@ -27,6 +27,7 @@ quick links:
 * [handling motion in animation](https://github.com/junguler/_svg-css-animations#handling-motion-in-an-animation)
 * [specify gradient angle](https://github.com/junguler/_svg-css-animations#gradient-angle)
 * [real world examples](https://github.com/junguler/_svg-css-animations#real-world-examples)
+* [mouse hover effect](https://github.com/junguler/_svg-css-animations#mouse-hover-effect)
 * filter examples
   * [hue-rotate](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
   * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
@@ -349,6 +350,39 @@ i'm going to add some examples i've done using the nerd font glyphs here over ti
 | Xbox | Playstation | Sun | Moon |
 |---|---|---|---|
 | ![](examples/xbox.svg) | ![](examples/playstation.svg) | ![](examples/sun.svg) | ![](examples/moon.svg) |
+
+<br>
+
+## mouse hover effect
+because we are using css to apply effects to these svg files we also have access to `:hover` which only activates when your mouse is hovered over the content of a specific tag, knowing this let's apply it these two svg files, make a copy of all the content in your `path` tag and add the `:hover` at the end of it
+
+```
+path {
+fill: url(#grad);
+animation: animate linear 5s infinite ;
+}
+path:hover {
+fill: url(#grad);
+animation: animate linear 1s infinite ;
+}
+```
+above example changes the speed of our animation from 5 seconds to 1 seconds when the mouse is hovered over the image
+
+here is another example but with a different gradient this time, copy paste everything inside your gradient tag, change the colors na give it a new name 
+```
+<linearGradient id="grad">
+<stop offset="0%" stop-color="#f0f" />
+<stop offset="100%" stop-color="#0ff" />
+</linearGradient>
+<linearGradient id="gradhover">
+<stop offset="0%" stop-color="#ff0" />
+<stop offset="100%" stop-color="#0f0" />
+</linearGradient>
+```
+
+| Hover over to speed up | Hover over to change colors |
+|--|--|
+| ![](examples/mouse.svg) | ![](examples/pointer.svg) |
 
 <br>
 

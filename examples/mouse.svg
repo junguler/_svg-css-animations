@@ -1,0 +1,28 @@
+<svg width="29.231mm" height="40mm" version="1.1" viewBox="0 0 29.231 40" xmlns="http://www.w3.org/2000/svg">
+<g transform="matrix(4.1349 0 0 4.1349 -170.75 -956.01)" stroke-width=".26458" aria-label="">
+
+<style>
+@keyframes animate {
+0% {
+filter: hue-rotate(360deg);}
+100% {
+filter: hue-rotate(0deg);}
+}
+path {
+fill: url(#grad);
+animation: animate linear 5s infinite ;
+}
+path:hover {
+fill: url(#grad);
+animation: animate linear 1s infinite ;
+}
+</style>
+
+<linearGradient id="grad">
+<stop offset="0%" stop-color="#f0f" />
+<stop offset="100%" stop-color="#0ff" />
+</linearGradient>
+
+<path d="m44.396 231.21q-1.3436 0.18604-2.2014 1.1472-0.85783 0.96117-0.89917 2.3461h3.1006zm-3.1006 6.1391q0.04134 1.509 1.0335 2.5011 0.99218 0.99219 2.5011 1.0335 1.5089-0.0413 2.5011-1.0335 0.99218-0.99218 1.0335-2.5011v-1.757h-7.0693zm3.9687-6.1391v3.4933h3.1006q-0.04134-1.3849-0.89917-2.3461-0.85783-0.96118-2.2014-1.1472z"/>
+</g>
+</svg>
