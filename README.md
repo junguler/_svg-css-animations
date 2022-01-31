@@ -22,6 +22,7 @@ quick links:
 * [use nerd font glyphs](https://github.com/junguler/_svg-css-animations#use-nerd-fonts-glyphs)
 * [handling motion in animation](https://github.com/junguler/_svg-css-animations#handling-motion-in-an-animation)
 * [specify gradient angle](https://github.com/junguler/_svg-css-animations#gradient-angle)
+* [real world examples](https://github.com/junguler/_svg-css-animations#real-world-examples)
 * filter examples
   * [hue-rotate](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
   * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
@@ -335,6 +336,15 @@ everything else can be the same as before
 | 0 degree | 45 degrees | 90 degrees |
 |---|---|---|
 | ![](examples/circle-0deg.svg) | ![](examples/circle-45deg.svg) | ![](examples/circle-90deg.svg) |
+
+<br>
+
+## real world examples
+i'm going to add some examples i've done using the nerd font glyphs here so you can get a feel for what's possible, if you want to see the code just click on the picture and hit the `<>` `display source blob` button at the top right
+
+| Xbox | Playstation |
+|---|---|
+| ![](examples/xbox.svg) | ![](examples/playstation.svg) |
 
 <br>
 
