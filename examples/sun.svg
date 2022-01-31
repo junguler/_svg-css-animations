@@ -1,0 +1,26 @@
+<svg width="40mm" height="39.745mm" version="1.1" viewBox="0 0 40 39.745" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g  stroke-width="1.0894" aria-label="盛">
+
+<style>
+@keyframes animate {
+0% {
+filter: brightness(100%);}
+100% {
+filter: brightness(120%);}
+}
+path {
+animation: animate linear 1.5s infinite alternate ;
+}
+</style>
+
+<defs>
+<linearGradient id="linearGradient11686">
+<stop stop-color="#ff0" offset="0"/>
+<stop stop-color="#ff8080" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient11688" cx="20" cy="19.872" r="20" gradientTransform="matrix(1 0 0 .99362 0 .12684)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient11686"/>
+</defs>
+
+<path d="m4.6809 32.681 2.5532 2.5532 3.234-3.3192-2.5532-2.5532zm13.532 7.0638h3.5745v-5.3617h-3.5745zm1.7872-30.809q-4.5957 0.17021-7.7021 3.234-3.1064 3.0638-3.1915 7.6596 0.085106 4.6809 3.1915 7.7447 3.1064 3.0638 7.7021 3.1489 4.5957-0.08511 7.7021-3.1489 3.1064-3.0638 3.1915-7.7447-0.08511-4.5957-3.1915-7.6596-3.1064-3.0638-7.7021-3.234zm14.553 12.766h5.4468v-3.6596h-5.4468zm-5.0213 10.213 3.234 3.3192 2.5532-2.5532-3.234-3.3192zm5.7872-24.851-2.5532-2.5532-3.234 3.234 2.5532 2.6383zm-13.532-7.0638h-3.5745v5.3617h3.5745zm-16.34 18.043h-5.4468v3.6596h5.4468zm5.0213-10.298-3.234-3.234-2.5532 2.5532 3.234 3.3192z" fill="url(#radialGradient11688)"/>
+</g>
+</svg>
