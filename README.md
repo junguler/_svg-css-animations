@@ -1,7 +1,11 @@
 ## svg animations
 
+<div align="center">
+
 | ![](examples/html.svg) | ![](examples/css.svg) | ![](examples/animation.svg) | ![](examples/svg.svg) |
 |---|---|---|---|
+
+</div>
 
 svgs are the most popular extension for vector images, unlike raster images (jpg, png ...) vector images don't contain pixels but calculations of the shapes that make the final image
 
