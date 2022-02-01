@@ -416,6 +416,10 @@ now that we have the explaining out of the way lets show some examples on what c
 |---|---|---|---|
 | ![](examples/arrow-Y.svg) | ![](examples/arrow-cl.svg) | ![](examples/arrow-ccl.svg) | ![](examples/arrow-X-180.svg) |
 
+| 0% skew(15deg, 15deg) -> 100% skew(-15deg, -15deg) |
+|---|
+| ![](examples/arrow-skew.svg) |
+
 <br>
 
 ## hue-rotate filter examples
