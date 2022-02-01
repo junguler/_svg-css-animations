@@ -410,7 +410,7 @@ this will be flip your image on it's x axis or horizontally, a note about `trans
 
 note that this transform-origin can also be set in you path tag to save on repeated words, the `50% { }` set inside the animation tells css that start from the normal position, turn the image at 50% and go back to normal position again
 
-now that we have the explaining out of the way lets show some examples on what can be done, note that this is just a fraction of what can be done and it's only because of limited understanding of transforms in css
+now that we have the explaining out of the way lets show some examples on what can be done, note that this is just a fraction of what can be done and it's only because of my limited understanding of transforms in css, better examples are on the way when i learn more
 
 | scaleY(-1) | rotate(360deg) | rotate(-360deg) | scaleX(-1) rotate(180deg) |
 |---|---|---|---|
