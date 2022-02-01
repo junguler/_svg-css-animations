@@ -348,7 +348,7 @@ everything else can be the same as before
 i'm going to add some examples i've done using the nerd font glyphs here over time so you can get a feel for what's possible, if you want to see the code just click on the picture and hit the `<>` `display source blob` button at the top right
 
 | Xbox | Playstation | Sun | Moon | Magnet |
-|---|---|---|---|
+|---|---|---|---|---|
 | ![](examples/xbox.svg) | ![](examples/playstation.svg) | ![](examples/sun.svg) | ![](examples/moon.svg) | ![](examples/magnet.svg) |
 
 <br>
