@@ -28,6 +28,7 @@ quick links:
 * [specify gradient angle](https://github.com/junguler/_svg-css-animations#gradient-angle)
 * [real world examples](https://github.com/junguler/_svg-css-animations#real-world-examples)
 * [mouse hover effect](https://github.com/junguler/_svg-css-animations#mouse-hover-effect)
+* [transform svgs](https://github.com/junguler/_svg-css-animations#transform-svgs)
 * filter examples
   * [hue-rotate](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
   * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
@@ -385,6 +386,35 @@ note: because of how github renders it's pages and applies it's own css to every
 | Hover over to speed up | Hover over to change colors |
 |--|--|
 | ![](https://raw.githubusercontent.com/junguler/_svg-css-animations/main/examples/mouse.svg) | ![](https://raw.githubusercontent.com/junguler/_svg-css-animations/main/examples/pointer.svg) |
+
+<br>
+
+## transform svgs
+transfrom gives us the ability to move around our svgs and when we apply it inside a animation it will gives you a custom motion
+
+for a complete roundown on everything that's possible check [this page](https://www.w3schools.com/cssref/css3_pr_transform.asp) 
+
+showing things in motion is way better than explaining so i will get to the point, inside your `@animation` do something like this
+```
+@keyframes animate {
+50% {
+transform: scaleX(-1);
+transform-origin: center;}
+}
+```
+this will be flip your image on it's x axis or horizontally, a note about `transform-origin: center;` it is needed because by default the picture is turned around it's top left position, lets show this in action
+
+| transform-origin: left | transform-origin: center | transform-origin: right |
+|---|---|---|
+| ![](examples/arrow-X-left.svg) | ![](examples/arrow-X-center.svg) | ![](examples/arrow-X-right.svg) |
+
+note that this transform-origin can also be set in you path tag to save on repeated words, the `50% { }` set inside the animation tells css that start from the normal position, turn the image at 50% and go back to normal position again
+
+now that we have the explaining out of the way lets show some examples on what can be done, note that this is just a fraction of what can be done and it's only because of limited understanding of transforms in css
+
+| scaleY(-1) | rotate(360deg) | rotate(-360deg) | scaleX(-1) rotate(180deg) |
+|---|---|---|---|
+| ![](examples/arrow-Y.svg) | ![](examples/arrow-cl.svg) | ![](examples/arrow-ccl.svg) | ![](examples/arrow-X-180.svg) |
 
 <br>
 
