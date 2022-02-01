@@ -358,9 +358,13 @@ i'm going to add some examples i've done using the nerd font glyphs here over ti
 
 <div align="center">
 
-| Xbox | Playstation | Sun | Moon | Magnet |
-|---|---|---|---|---|
-| ![](examples/xbox.svg) | ![](examples/playstation.svg) | ![](examples/sun.svg) | ![](examples/moon.svg) | ![](examples/magnet.svg) |
+| Xbox | Playstation | Sun | Moon |
+|---|---|---|---|
+| ![](examples/xbox.svg) | ![](examples/playstation.svg) | ![](examples/sun.svg) | ![](examples/moon.svg) |
+
+| Magnet | Cog |
+|---|---|
+| ![](examples/magnet.svg) | ![](examples/cog.svg) | 
 
 </div>
 
