@@ -326,9 +326,13 @@ the same method for applying gradients and animation can be applied to this glyp
 ## handling motion in an animation
 depending on the number of seconds you want to run an animation it might look very different, we can also use other methods to make an animation look slower or faster than it already is using `linear`, `ease`, `ease-in-out` and some others, the easiest way to give you an idea is to show you
 
+<div align="center">
+
 | linear | ease | ease-in-out |
 |--|--|--|
 | ![](examples/triangle-linear.svg) | ![](examples/triangle-ease.svg) | ![](examples/triangle-ease-in-out.svg) |
+
+</div>
 
 <br>
 
@@ -339,18 +343,26 @@ so far we've only used the angle `0` or used a gui svg editor (inkscape in my ca
 ```
 everything else can be the same as before
 
+<div align="center">
+
 | 0 degree | 45 degrees | 90 degrees |
 |---|---|---|
 | ![](examples/circle-0deg.svg) | ![](examples/circle-45deg.svg) | ![](examples/circle-90deg.svg) |
+
+</div>
 
 <br>
 
 ## real world examples
 i'm going to add some examples i've done using the nerd font glyphs here over time so you can get a feel for what's possible, if you want to see the code just click on the picture and hit the `<>` `display source blob` button at the top right
 
+<div align="center">
+
 | Xbox | Playstation | Sun | Moon | Magnet |
 |---|---|---|---|---|
 | ![](examples/xbox.svg) | ![](examples/playstation.svg) | ![](examples/sun.svg) | ![](examples/moon.svg) | ![](examples/magnet.svg) |
+
+</div>
 
 <br>
 
@@ -383,9 +395,13 @@ here is another example but with a different gradient this time, copy paste ever
 
 note: because of how github renders it's pages and applies it's own css to everything you are not able to see the effect in this page, just click on any of the 2 images and it will open in a new page as raw svg and hover your mouse over them
 
+<div align="center">
+
 | Hover over to speed up | Hover over to change colors |
 |--|--|
 | ![](https://raw.githubusercontent.com/junguler/_svg-css-animations/main/examples/mouse.svg) | ![](https://raw.githubusercontent.com/junguler/_svg-css-animations/main/examples/pointer.svg) |
+
+</div>
 
 <br>
 
@@ -404,13 +420,19 @@ transform-origin: center;}
 ```
 this will be flip your image on it's x axis or horizontally, a note about `transform-origin: center;` it is needed because by default the picture is turned around it's top left position, lets show this in action
 
+<div align="center">
+
 | transform-origin: left | transform-origin: center | transform-origin: right |
 |---|---|---|
 | ![](examples/arrow-X-left.svg) | ![](examples/arrow-X-center.svg) | ![](examples/arrow-X-right.svg) |
 
+</div>
+
 note that this transform-origin can also be set in you path tag to save on repeated words, the `50% { }` set inside the animation tells css that start from the normal position, turn the image at 50% and go back to normal position again
 
 now that we have the explaining out of the way lets show some examples on what can be done, note that this is just a fraction of what can be done and it's only because of my limited understanding of transforms in css, better examples are on the way when i learn more
+
+<div align="center">
 
 | scaleY(-1) | rotate(360deg) | rotate(-360deg) | scaleX(-1) rotate(180deg) |
 |---|---|---|---|
@@ -419,6 +441,8 @@ now that we have the explaining out of the way lets show some examples on what c
 | 0% skew(15deg, 15deg) -> 100% skew(-15deg, -15deg) | skew + rotate |
 |---|---|
 | ![](examples/arrow-skew.svg) | ![](examples/arrow-skew-rotate.svg) |
+
+</div>
 
 <br>
 
