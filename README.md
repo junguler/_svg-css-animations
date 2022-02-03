@@ -29,6 +29,7 @@ quick links:
 * [real world examples](https://github.com/junguler/_svg-css-animations#real-world-examples)
 * [mouse hover effect](https://github.com/junguler/_svg-css-animations#mouse-hover-effect)
 * [transform svgs](https://github.com/junguler/_svg-css-animations#transform-svgs)
+* [animation steps](https://github.com/junguler/_svg-css-animations#animation-steps)
 * filter examples
   * [hue-rotate](https://github.com/junguler/_svg-css-animations#hue-rotate-filter-examples)
   * [blur filter](https://github.com/junguler/_svg-css-animations#blur-filter-example)
@@ -447,6 +448,19 @@ now that we have the explaining out of the way lets show some examples on what c
 | ![](examples/arrow-skew.svg) | ![](examples/arrow-skew-rotate.svg) |
 
 </div>
+
+<br>
+
+## animation steps
+so far every examples i've shown was about animating in a smooth motion, using `steps()` we can change the smoothness of these animations
+```
+animation: animate steps(5) 2.5s infinite;
+```
+above forces this animation to be played in 5 steps, here is visual example with different numbers
+
+| steps(5) | steps(10) | steps(15) | steps(20) | steps(25) | steps(30) |
+|---|---|---|---|---|---|
+| ![](examples/dice-1.svg) | ![](examples/dice-2.svg) | ![](examples/dice-3.svg) | ![](examples/dice-4.svg) | ![](examples/dice-5.svg) | ![](examples/dice-6.svg) |
 
 <br>
 
