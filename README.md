@@ -363,9 +363,9 @@ i'm going to add some examples i've done using the nerd font glyphs here over ti
 |---|---|---|---|
 | ![](examples/xbox.svg) | ![](examples/playstation.svg) | ![](examples/sun.svg) | ![](examples/moon.svg) |
 
-| Magnet | Cog |
-|---|---|
-| ![](examples/magnet.svg) | ![](examples/cog.svg) | 
+| Magnet | Cog | Thumbs up/down |
+|---|---|---|
+| ![](examples/magnet.svg) | ![](examples/cog.svg) | ![](examples/thumbs-updown.svg) | 
 
 </div>
 
