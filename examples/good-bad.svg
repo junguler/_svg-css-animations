@@ -1,0 +1,26 @@
+<svg width="40mm" height="40mm" version="1.1" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<style>
+@keyframes animate {
+from {
+transform: rotate(0deg);}
+50% {
+transform: rotate(45deg);
+filter: invert(100%);}
+to {
+transform: rotate(90deg);}
+}
+path {
+animation: animate ease-in-out 1s infinite;
+transform-origin: center;
+}
+</style>
+
+<radialGradient id="radialGradient4092" cx="20" cy="20" r="20" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d5ffd5" offset="0"/>
+<stop stop-color="#0f0" offset="1"/>
+</radialGradient>
+
+<path d="m40 23.333h-16.667v16.667h-6.6667v-16.667h-16.667v-6.6667h16.667v-16.667h6.6667v16.667h16.667z" fill="url(#radialGradient4092)"/>
+
+</svg>
