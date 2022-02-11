@@ -244,14 +244,14 @@ there are a bunch of filters we can apply in our animations, for a complete expl
 | filter | minimum | maximum | default | info |
 |---|---|---|---|---|
 | `blur()` | 0px | n/a | 0px | apply blur effect |
-| `brightness()` | 0.0 | 2.0 | 1.0 | assign brightness value |
-| `contrast()` | 0% | 200% | 100% | assign contrast value |
+| `brightness()` | 0.0 | n/a | 1.0 | assign brightness value |
+| `contrast()` | 0% | n/a | 100% | assign contrast value |
 | `drop-shadow()` | 0px | n/a | 0px | apply drop shadowing |
 | `grayscale()` | 0% | 100% | 0% | apply grayscale (black and white) |
 | `hue-rotate()` | 0deg | 360deg | 0deg | rotate hue (change colors) can also be a negative value |
 | `invert()` | 0% | 100% | 0% | invert colors |
 | `opacity()` | 0% | 100% | 100% | change opacity(alpha) |
-| `saturate()` | 0% | 200% | 100% | saturate colors |
+| `saturate()` | 0% | n/a | 100% | saturate colors |
 | `sepia()` | 0% | 100% | 0% | apply sepia (old timey color) |
 
 chaining filters is easy too, just do this:
