@@ -10,6 +10,8 @@ wget https://github.com/junguler/_svg-css-animations/archive/refs/heads/main.zip
 ```
 and view it inside a text editor or ide that has the option to show markdown files (i recommend VSCodium)
 
+<br>
+
 <div align="center">
 
 | ![](examples/html.svg) | ![](examples/css.svg) | ![](examples/animation.svg) | ![](examples/svg.svg) |
