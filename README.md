@@ -1,17 +1,5 @@
 ## svg animations
 
-with github's recent update to animated svg images, unfortunently there is no way to show them (with firefox) on the web page, if you are on firefox and want to see what these svgs look like either git clone the repo
-```
-https://github.com/junguler/_svg-css-animations.git
-```
-or download the automatically generated zip file 
-```
-wget https://github.com/junguler/_svg-css-animations/archive/refs/heads/main.zip
-```
-and view it inside a text editor or ide that has the option to show markdown files (i recommend VSCodium)
-
-<br>
-
 <div align="center">
 
 | ![](examples/html.svg) | ![](examples/css.svg) | ![](examples/animation.svg) | ![](examples/svg.svg) |
